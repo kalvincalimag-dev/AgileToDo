@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutUs">
+
+    <RelativeLayout
+        android:id="@+id/HeaderAboutUs"
+        android:layout_width="420dp"
+        android:layout_height="176dp"
+        android:background="#23673F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/txtAboutUs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="59dp"
+            android:layout_marginTop="49dp"
+            android:text="About Us"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btnBackHomeAU"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="42dp"
+            android:background="@drawable/backhomeicon"
+            android:contentDescription="Back to Home" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/dividerAU1"
+        android:layout_width="fill_parent"
+        android:layout_height="2.5dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="548dp"
+        android:layout_marginEnd="-1dp"
+        android:background="#767778"
+        android:contentDescription="TODO"
+        android:paddingLeft="5dp"
+        android:paddingTop="2dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="2dp"
+        android:scaleType="fitXY"
+        android:src="@android:drawable/divider_horizontal_dark" />
+
+    <ImageView
+        android:id="@+id/dividerAU2"
+        android:layout_width="fill_parent"
+        android:layout_height="2.5dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="1dp"
+        android:background="#767778"
+        android:contentDescription="TODO"
+        android:paddingLeft="5dp"
+        android:paddingTop="2dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="2dp"
+        android:scaleType="fitXY"
+        android:src="@android:drawable/divider_horizontal_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="185dp"
+        android:text="Project Description"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="377dp"
+        android:layout_height="163dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="173dp"
+        android:text=" - PHINMA-University of Pangasinan Themed Interface \n
+- Goals Menu: Jot Down your Aspirations &amp; their Milestones. \n
+- Tasks Menu: Set Straight your Action Plan \n
+- Habits Menu: Incorporate Productivity into your Lifestyle. \n
+- Scheduling: Incorporate Task Visualization with Foresight. \n \n
+- COMING SOON: Delegation: Assign Tasks to Peers \n
+- COMING SOON: Mobile Offline Notes
+"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="368dp"
+        android:text="Project Features"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="385dp"
+        android:text="Putting forth the greatest effort to achieve our dreams can only get us so far if our means are scattered and unsystematic. This app is designed to cure that hodgepodge of scatteredness and provide usability to its users with an arsenal of features to get themselves in order. This includes the identification of long-term goals, organization of necessary tasks, and incorporation of good habits that will help them navigate the steep rocky path towards success. The student’s utilization of this application will undeniably reap them the benefits of systematic work with a sense of direction.  "
+        android:textAlignment="center"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="560dp"
+        android:text="Contributors"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="173dp"
+        android:layout_height="108dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="-30dp"
+        android:text="Valerio, Christian Joshua \n
+UP-FA1-BSIT2-02 \n
+PHINMA-University of Pangasinan \n
+Dagupan City, Philippines \n
+chvi.valerio.up@phinmaed.com \n
+
+"
+        android:textAlignment="center"
+        android:textSize="10dp" />
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_height="105dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="42dp"
+        android:text="Calimag, Kalvin Isaiah D. \n
+UP-FA1-BSIT2-02 \n
+PHINMA-University of Pangasinan \n
+Dagupan City, Philippines \n
+kade.calimag.up@phinmaed.com
+"
+        android:textAlignment="center"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="176dp"
+        android:layout_height="111dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="-33dp"
+        android:text="John Paul Alonzo \n
+UP-FA1-BSIT2-02 \n
+PHINMA-University of Pangasinan \n
+La Union, Philippines \n
+ohaq.alonzo.up@phinmaed.com
+
+"
+        android:textAlignment="center"
+        android:textSize="10dp" />
+
+</RelativeLayout>
